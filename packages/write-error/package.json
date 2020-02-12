@@ -1,0 +1,26 @@
+{
+  "name": "write-error",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jeff Jørgensen <ekjejo@danskespil.dk>",
+  "homepage": "https://github.com/jeffyjo/npm-package/tree/master/packages/write-error#readme",
+  "license": "ISC",
+  "main": "lib/write-error.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffyjo/npm-package.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffyjo/npm-package/issues"
+  }
+}
