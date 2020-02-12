@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "npx lerna bootstrap --use-workspaces"
   },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jeffyjo/npm-package.git"
